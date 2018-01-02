@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="us-en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-sale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<title>Narasingole</title>
+		<style>
+			.btn{
+				background-color:#1a75ff;
+				color:white;
+				padding:7px;
+				margin-top:5px;
+				font-weight:bold;
+			}
+			.btn:hover{
+				background-color:#2eb82e;
+				color:white;
+			}
+			.btn:focus{
+				background-color:#2eb82e;
+				color:white;
+			}
+			.navbar{
+				background-color:white;
+			}
+			footer span{
+				color:blue;
+			}
+			.container-fluid{
+				margin:0;
+				padding:0;
+			}
+		
+			.form-group{
+				margin-left:35px;
+				margin-right:35px;
+			}
+			#img{
+				width:100%;
+				height:100vh !important;
+			}
+			#twitter{
+				background-color:#0084b4;
+			}
+			#facebook{
+				background-color:#3b5998;
+			}
+			#google{
+				background-color:#d34836;
+			}
+			@media screen and (min-width:500px){
+				.d1{
+				position: relative;
+				width: 100%;
+			}
+			.d2{
+				position: absolute;
+				top:20%;
+				left:20%;
+				width:60%;
+				background-color:white;
+				border-radius:5px;
+			}
+			}
+			@media screen and (max-width:500px){
+				.d1{
+				position: relative;
+				width: 100%;
+			}
+			.d2{
+				position: absolute;
+				top:20%;
+				left:5%;
+				width:90%;
+				background-color:white;
+				border-radius:5px;
+			}
+			}
+			
+		</style>
+	</head>
+	<body>
+	<!--.d1{
+				position: relative;
+				width: 100%;
+			}
+			.d2{
+				position: absolute;
+				top:20%;
+				left:20%;
+				width:60%;
+				background-color:white;
+				border-radius:5px;
+			}-->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-sm-8 col-xs-12">
+						<img src="logo.jpg" alt="logo" id="logo">
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12">
+						<a href="MyVillage.html"  class="btn btn-default">Home</a>
+						<a href="signin.html" class="btn btn-default">LogIn</a>
+						<a href="contact.html" class="btn btn-default">Contact Us</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+			<div class="d1">
+				<img src="img4.jpg" id="img" class="img-responsive" width="100%">
+				<div class="d2">
+					<h2 class="text-center">Sign In Now</h2>
+					<p class="text-center">Autherized persons only</p></br></br>
+					<div class="row">
+						<div class="col-sm-6 col-xs-12">
+							<form>
+								<div class="form-group ">
+									<div class="input-group">
+										<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+										<input type="email" class="form-control" placeholder="Email Address">
+									</div></br>
+									<div class="input-group">
+										<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+										<input type="password" class="form-control" placeholder="password">
+									</div>
+									<a href="#">Forgot password?</a></br></br>
+									<a href="#" class="btn btn-success form-control">Login</a></br></br>
+									<input type="checkbox">  Remember me</br></br>
+									<p>Don't have an account yet?</p>
+									<a href="signup.html">Create your account now</a>
+								</div>
+							</form>
+						</div>
+						<div class="col-sm-6 col-xs-12">
+							<form>
+								<div class="form-group">
+									<a href="#" id="twitter" class="form-control btn btn-success"><i class="fa fa-twitter" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Login with Twitter</a></br>
+									<a href="#" id="facebook" class="form-control btn btn-success"><i class="fa fa-facebook" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Login with Facebook</a></br>
+									<a href="#" id="google" class="form-control btn btn-success"><i class="fa fa-google-plus" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Login with Google</a></br>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		<footer class="container-fluid text-center" style="background-color:white;margin-top:5px;padding:3px;">
+			<p>&copy; 2017 <strong>Narasingole<strong> <span> Terms of Use  |  Privacy</span></p>
+		</footer>
+	</body>
+</html>
